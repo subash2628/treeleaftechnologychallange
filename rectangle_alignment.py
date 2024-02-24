@@ -27,6 +27,6 @@ rotated_image1 = cv2.warpAffine(image1, cv2.getRotationMatrix2D((image1.shape[1]
 
 # Display the aligned images
 #cv2_imshow(rotated_image1)
-cv2.imshow('Aligned Rectangle 2', rotated_image2)
+cv2.imshow('Aligned Rectangle', rotated_image1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
